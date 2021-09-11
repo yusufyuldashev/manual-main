@@ -1,0 +1,160 @@
+.doctor-team {
+    margin-top: 90px;
+    h4 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 1.2px;
+        color: #0B3B3C;
+    }
+    .doctor-text {  
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 43px;
+        text-align: center;
+        letter-spacing: 0.72px;
+        color: #0B3B3C;
+        margin-left: 150px;
+        margin-top: 20px;
+        width: 750px;
+    }
+    ul {
+        display: flex;
+        li {
+            margin: 40px;
+            h5 {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 32px;
+                color: #0B3B3C;
+                margin-top: 20px;
+            }
+            p {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 29px;
+                margin-top: -10px;
+                color: #91AB9F;
+                margin-bottom: -20px;
+            }
+        }
+    }
+}
+.doctor-call {
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 100px;
+    img {
+        height: 50px;
+    }
+    div {
+        margin-left: 20px;
+        h5 { 
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 43px;
+            letter-spacing: 0.72px;
+            color: #0B3B3C;
+        }
+        p {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 29px;
+            color: #91AB9F;
+            margin-top: -5px;
+        }
+    }
+    a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 2.1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #7E0707;
+        border: 2px solid #7E0707;
+        height: 45px;
+        margin-left: 90px;
+        padding: 10px 70px;
+        transition: all 0.5s;
+    }
+    a:hover {
+        background-color: inherit;
+        color: black;
+    }
+}
+.humans-realitatsiya {
+    background-image: url(/img/big-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1400px;
+    background-color: #F3F7F4;
+    .humans {
+        padding-top: 300px;
+        padding-bottom: 300px;
+        p {    
+            width: 450px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        h5 {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            margin-left: 140px;
+            letter-spacing: 2.1px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        
+    }
+    .link {
+        margin-top: 150px;
+        margin-left: 320px;
+        a {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 2.1px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background: #7E0707;
+            border: 2px solid #7E0707;
+            padding: 10px 80px;
+            margin: 10px;
+            transition: all 0.5s;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        a:hover {
+            background-color: #fff;
+            color: black;
+        }
+    }
+}

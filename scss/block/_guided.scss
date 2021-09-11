@@ -1,0 +1,54 @@
+.guided-wrapper {
+    h2 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 1.2px;
+        color: #0B3B3C;
+        margin-top: 50px;
+    }
+    p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 43px;
+        text-align: center;
+        letter-spacing: 0.72px;
+        color: #0B3B3C;
+    }
+    ul {
+        display: flex;
+        margin-top: 20px;
+        li {
+            margin: 10px;
+            img {
+                width: 250px;
+            }
+            h4 {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 40px;
+                letter-spacing: 0.72px;
+                color: #0B3B3C;
+                margin-bottom: 100px;
+            }
+            a {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 2.1px;
+                text-transform: uppercase;
+                color: #0B3B3C;
+                border-bottom: 2px solid #0B3B3C;
+            }
+        }
+    }
+}

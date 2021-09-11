@@ -1,0 +1,142 @@
+footer {
+    background: #0B3B3C;
+    .footer-wrapper {
+        display: flex;
+        .footer-left {
+            margin-left: 150px;
+            h2 {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 25px;
+                letter-spacing: 2.7px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                padding-top: 50px;
+            }
+            p {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 25px;
+                letter-spacing: 0.84px;
+                color: #6D8A83;
+            }
+            .murojat {
+                display: flex;
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+                div {
+                    margin-left: 10px;
+                    h4 {
+                        font-family: "Roboto";
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 25px;
+                        letter-spacing: 0.84px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+        .footer-center {
+            margin-top: 50px;
+            margin-left: 50px;
+            li {
+                p {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: 2.1px;
+                    text-transform: uppercase;
+                    color: #6D8A83;
+                }
+                h5 {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 25px;
+                    letter-spacing: 0.84px;
+                    color: #FFFFFF;
+                    margin-top: 20px;
+                }
+            }
+        }
+        .footer-right {
+            margin-top: 50px;
+            margin-left: 250px;
+            li {
+                p {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: 2.1px;
+                    text-transform: uppercase;
+                    color: #6D8A83;
+                }
+                h5 {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 25px;
+                    letter-spacing: 0.84px;
+                    color: #FFFFFF;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    .manual {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        width: 900px;
+        margin-left: 150px;
+        div {
+            img {
+                margin: 0px 5px;
+            }
+        }
+    }
+    .footer-bottom {
+        margin-top: 50px;
+        margin-left: 110px;
+        ul {
+            display: flex;
+            li {
+                margin-right: 20px;
+                a {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 22px;
+                    letter-spacing: 0.72px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        p {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 22px;
+            letter-spacing: 0.72px;
+            color: #6D8A83;
+            margin-bottom: -5px;
+            margin-left: 30px;
+        }
+    }
+}

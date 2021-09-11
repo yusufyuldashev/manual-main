@@ -1,0 +1,216 @@
+.product-wrapper {
+    h2 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 1.2px;
+        color: #0B3B3C;
+        margin-top: 10px;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -30px;
+        li {
+            width: 550px;
+            background: #E8EFE9;
+            margin: 3px;
+            img  {
+                width: 350px;
+                height: 350px;
+                margin-top: 20px;
+                margin-left: 90px;
+            }
+            h4 {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: 0.72px;
+                color: #0B3B3C;
+            }
+            p {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 29px;                text-align: center;
+                color: #0B3B3C;
+                width: 450px;
+                margin-left: 40px;
+            }
+            a {
+                color: #000;
+                border-bottom: 3px solid black;
+                margin-left: 220px;
+                font-weight: bold;
+                display: inline-block;
+                margin-bottom: 70px;
+            }
+        }
+    }
+}
+.product-intro {
+    background-color: #E8EFE9;
+    margin-top: 20px;
+    .product-interyu {
+        display: flex;
+        .left {
+            h3 {       
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 60px;
+                letter-spacing: 1.2px;
+                color: #0B3B3C;
+            }
+            .big-p {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 29px;
+                color: #0B3B3C;
+                width: 522px;
+                margin-top: 20px;
+                margin-bottom: 50px;
+            }
+            .mini-p {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 15px;
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                color: #0B3B3C;
+                margin-top: 130px;
+                display: inline-block;
+                padding: 2px 5px;
+                background: #BDCDC5;
+            }
+            a {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+                background: #7E0707;
+                border: 2px solid #7E0707;
+                text-align: center;
+                letter-spacing: 2.1px;
+                text-transform: uppercase;
+                padding: 10px 80px;
+                color: #FFFFFF;
+                transition: all 0.5s ease;
+            }
+            a:hover {
+                background-color: inherit;
+                color: black;
+            }
+            ul {
+                display: flex;
+                margin-left: -40px;
+                li {
+                    display: flex;
+                    margin-top: 50px;
+                    img {
+                        width: 15px;
+                        height: 15px;
+                    }
+                    p {
+                        margin-top: -5px;
+                        margin-left: 5px;
+                        margin-right: 20px;
+                        font-family: "Roboto";
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 12px;
+                        line-height: 29px;
+                        color: #0B3B3C;
+                    }
+                }
+            }
+        }
+        .right {
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 80px;
+                margin-top: 50px;
+                li {
+                    margin: 5px;
+                    background-color: #fff;
+                    width: 150px;
+                    img {
+                        margin-top: 20px;
+                        margin-left: 45px;
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        text-align: center;
+                        color: #0B3B3C;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+.medical-director {
+    #mmm-p {
+        margin-top: 30px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        color: #0B3B3C;
+    }
+    h4 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #0B3B3C;
+    }
+    img {
+        margin-left: 46%;
+        margin-top: 10px;
+    }
+    div {
+        display: flex;
+        margin-left: 37%;
+        margin-top: 5%;
+        img {
+            margin-left: 0px;
+            margin-top: 0px;
+            height: 30px;
+        }
+        h5 {
+            font-size: 30px;
+            margin-right: 5px;
+            margin-left: 5px;
+            font-weight: bold;
+        }
+    }
+    .mmm-p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        
+        line-height: 22px;
+        text-align: center;
+        color: #0B3B3C;
+    }
+}

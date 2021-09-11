@@ -1,0 +1,18 @@
+@import './block/general';
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto';
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,86 @@
+.healthcare-wrapper {
+    padding-bottom: 200px;
+    .healthcare-header {
+        h4 {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: bolder;
+            font-size: 35px;
+            line-height: 60px;
+            text-align: center;
+            letter-spacing: 1.2px;
+            color: #0B3B3C;
+            margin-top: 80px;
+        }
+        img {
+            margin-left: 43%;
+        }
+        p {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: center;
+            color: #0B3B3C;
+            span {
+                color: #00B67A;
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 30px;
+                text-align: center;
+            }
+        }
+    }
+    .healthcare-content {
+        ul {
+            display: flex;
+            li {
+                margin-right: 50px;
+                img {
+                    height: 273px;
+                }
+                h4 {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 25px;
+                    line-height: 40px;
+                    text-align: center;
+                    letter-spacing: 0.84px;
+                    color: #0B3B3C;
+                    margin-top: 20px;
+                }
+                p {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #0B3B3C;
+                }
+            }
+            .sledushi-1::after {
+                content: url(/img/old-1.png);
+                position: absolute;
+                margin-top: -500px;
+                margin-left: 280px;
+            }
+            .sledushi-2::after {
+                content: url(/img/old-2.png);
+                position: absolute;
+                margin-top: -280px;
+                margin-left: 280px;
+            }
+            .sledushi-3::after {
+                content: url(/img/old-3.png);
+                position: absolute;
+                margin-top: 60px;
+                margin-left: -220px;
+            }
+        }
+    }
+}
